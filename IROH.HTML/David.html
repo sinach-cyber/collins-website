@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+</head>
+
+<body>
+        <h1>My Goals for the Year</h1>
+
+        <hr>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#html">learning html</a>
+                </li>
+                <li>
+                    <a href="vacation">planning a vacation</a>
+                </li>
+                <li>
+                    <a href="Contact">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+
+        <section id="html">
+        <h2>I am ready to learn html</h2>
+        <p>This is my first web page</p>
+
+        <h3>My daily schedule</h3>
+        
+        <p>Let me tell you how....
+            <br>...I learn more about web dev.
+            <br>...I plan my schudule.
+            <br>...I use resource
+        </p>
+        </section>
+
+        <hr>
+        <section id="vacation">
+            <aside>
+                <details>
+                    <summary>Guess the number of hours i code per days</summary>
+                    <p>I start at 8am and i write code for<mark> 3 hours </mark>every morning</p>
+                </details>
+            </aside>  
+            <br>
+            <table>
+                <caption>My daily Schedule</caption>
+                <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Activity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">Morning</th>
+                    <td>
+                        <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                    </td>
+                    <td>Write Code</td>
+                </tr>
+                <tr>
+                    <th scope="row">Break</th>
+                    <td>
+                        <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+                    </td>
+                    <td>Eat Lunch</td>
+                </tr>
+                <tr>
+                    <th scope="row">Afternoon</th>
+                    <td>
+                        <time datetim5e="12:00">12pm</time>-<time datetime="17:00">5pm</time>
+                    </td>
+                    <td>Study for other Courses</td>
+                </tr>
+                <tr>
+                    <th scope="row">Evining</th>
+                    <td rowspan="2">All other Times</td>
+                    <td>Free Time</td>
+                </tr>
+                <tr>
+                    <th scope="row">Night</th>
+                    <td>Sleep</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">And that is what i do everyday,5days a week. just eat,sleep,code
+                         and recharge!</td>
+                </tr>
+            </tfoot>
+            </table>
+        <h2>I am also planning on a vacation</h2>        
+        <p>I have been workinh hard and <em>really</em> need a getway.</p>
+        <p>I live in KS so <strong>i want visit a beach</strong></p>
+
+        <h3>My daily schedule</h3>
+        <p>Let me tell you how....</p>
+        <ol>
+            <li>Download an <a href="html5.png" download>HTML5 Favicon</a></li>
+            <li>Constant Practice</li>
+            <li>Daily Reading</li>
+            <li>Carrying Out Assignment</li>
+            <a href="https://youtube.com/">Collins</a>
+        </ol>
+        <img scr="c:\Users\USER\Downloads\meatpie.jfif" width="50" height="60">
+        <figure>
+            <figcaption>An example of Meatpie</figcaption>
+        </figure>
+    </section>
+        <address>
+            No 4 obi Ochele<br>
+            No 5 Okolo<br>
+            No 6 Collins Street<br>
+        </address>
+
+        <hr>
+
+        <article id="contact">
+            <h2>Contact Me</h2>
+            <P>I will really like to hear from you!</P>
+
+
+            <form action="https://httpbin.org/get" method="get">
+                <P>
+                <label for="FirstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="PEACE" autocomplete="on"
+                required autofocus>
+                </P>
+                <p>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="IROH" autocomplete="on"
+                    required
+                </p>
+                <p>
+                        <label for="Password">Password:</label>
+                        <input type="text" name="Password" id="Password" placeholder="your secret"
+                        required
+                    </p>
+                    <p>
+                        <label for="decade">number</label>
+                        <input type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="1980" 
+                    </p>
+                    <p>
+                        <label for="coffee">Favourite coffee</label>
+                        <select name="coffee"id="coffee">
+                            <optgroup label="Coffees">
+                            <option value="regular coffee">Regular Coffee</option>
+                            <option value="iced coffee">Iced Coffee</option>
+                        </optgroup>
+                        <optgroup label="Espressp Drinks">
+                            <option value="lattee">Lattee</option>
+                            <option value="cappucino"> Cappucino</option>
+                            <option value="cortado">Cortado</option>
+                            <option value="americano">Americano</option>
+                        </optgroup>
+                            <option vaule="other">Other</option>
+                        </select>
+                    </p>
+                    <fieldset>
+                        <legend>What is your Favourite food</legend>
+                        <p>
+                            <input type="radio" name="food" id="tacos" value="tacos">
+                            <label for="other">Tacos</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="food" id="pizza" value="pizza">
+                            <label for="pizza">Pizza</label>
+                        </p>
+                    <p>
+                        <input type="radio" name="food" id="other" value="other">
+                        <label for="other">other</label>
+                    </p>
+                </fieldset>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </article>
+</body>
+
+</html>
